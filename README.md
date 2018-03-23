@@ -1,3 +1,5 @@
+:warning: **This has been made public but it is still very dirty and hacky. I promise I'll tidy it up soon**
+
 # fdctl
 Handy wrapper for managing firedrills within Core
 
