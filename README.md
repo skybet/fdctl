@@ -1,7 +1,7 @@
 :warning: **This has been made public but it is still very dirty and hacky. I promise I'll tidy it up soon**
 
 # fdctl
-Handy wrapper for managing firedrills within Core
+Handy Go app for managing firedrills within Core
 
 ## What is the point of this?
 
@@ -13,13 +13,14 @@ Some context around firedrills
 1. Get an incoming webhook set up in Slack
 1. Set webhook URL as env variable `FIREDRILL_WEBHOOK_URL`
 
-## Installation
+## Install
+
+Get the latest release and use it
+
+## Build
 
 1. `git clone git@github.com:skybet/fdctl.git`
-1. `ln -s fdctl/fdctl /usr/local/bin/fdctl`
-1. `chmod +x /usr/local/bin/fdctl`
-
-Or something equally disgusting
+1. `cd fdctl && go install fdctl`
 
 ## Usage
 
