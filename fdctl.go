@@ -103,10 +103,6 @@ func main() {
         title = "FIREDRILL STOP"
     }
 
-
-
-//    Image := "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
-
     settings, ok := avatars[*role]
     if !ok {
         settings.Username = fmt.Sprintf("FIREDRILL (%s)", *role)
