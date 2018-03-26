@@ -15,7 +15,7 @@ Some context around firedrills
 
 ## Install
 
-Get the latest release and use it
+Get the latest [release](https://github.com/skybet/fdctl/releases) and use it
 
 ## Build
 
@@ -24,11 +24,17 @@ Get the latest release and use it
 
 ## Usage
 
-Start
+### Start
 
-Stop
+`fdctl -operation start`
 
-Speak
+### Stop
+
+`fdctl -operation stop`
+
+### Say
+
+`fdctl -role techops -message "Hello, World!"`
 
 ## Todo
 
